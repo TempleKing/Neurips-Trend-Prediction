@@ -20,7 +20,7 @@ The project notebooks **must** be executed in the following order:
     * **Input:** Loads the `.pkl` files created by `processing.ipynb`.
     * **Output:** Performs clustering and analysis, then saves the final labeled dataset as a `.csv` file (e.g., `df_final_with_topics.csv`).
 
-3.  **`Analysis.ipynb`** (或 `trend_prediction.ipynb`，请根据您的实际文件名修改)
+3.  **`Analysis.ipynb`** (或 `trend_prediction.ipynb`)
     * **Input:** Loads the `.csv` file created by `clustering.ipynb`.
     * **Output:** Conducts and visualizes time-series trend analysis on the clustered topics.
 
