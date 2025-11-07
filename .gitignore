@@ -1,0 +1,19 @@
+# 忽略 Python 缓存和系统文件
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# 忽略环境文件
+.env
+venv/
+
+# ！！！忽略所有处理过程中生成的 .pkl 和 .csv 文件！！！
+*.pkl
+*.csv
+
+# ！！！但是，不要忽略 dataset 文件夹里的 .csv 文件！！！
+!dataset/
+!dataset/*.csv
+
+# ！！！明确忽略这个 206MB 的数据库文件！！！
+dataset/database.sqlite
